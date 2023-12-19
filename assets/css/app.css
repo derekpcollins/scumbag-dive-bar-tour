@@ -55,15 +55,14 @@ ul.bar-list {
 /* Source: https://codepen.io/555/pen/pdwvBP */
 .visited::after {
 	content: 'Scum';
-	font-family: 'Free Lunch';
 	color: #D23;
-	font-size: 42px;
+	font-size: 36px;
 	font-weight: 700;
-	border: 0.25rem solid #D23;
+	border: 0.5rem double #D23;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 8px;
+	padding: 12px;
 	text-transform: uppercase;
 	border-radius: 50%;
 	font-family: 'Courier';
@@ -74,8 +73,8 @@ ul.bar-list {
 	top: 50%;
 	left: 50%;
 	transform: translate3d(-50%,-50%,0) rotate(-18deg);
-	height: 96px;
-	width: 96px;
+	height: 88px;
+	width: 88px;
 	opacity: .65;
 	z-index: 2;
 }
