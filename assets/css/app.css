@@ -74,7 +74,7 @@ ul.bar-list {
 	text-transform: uppercase;
 	border-radius: 50%;
 	font-family: 'Courier';
-	-webkit-mask-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/8399/grunge.png');
+	-webkit-mask-image: url('../img/grunge.png');
 	-webkit-mask-size: 944px 604px;
 	mix-blend-mode: multiply;
 	position: absolute;
