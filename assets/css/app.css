@@ -38,7 +38,6 @@ ul.bar-list {
 	padding: 0;
 	
 	& li {
-		flex: 2;
 		border: 1px dashed rgba(0,0,0,.25);
 		display: flex;
 		align-items: center;
@@ -46,9 +45,18 @@ ul.bar-list {
 		height: 150px;
 		border-collapse: collapse;
 		position: relative;
-		font-size: 18px;
-		font-weight: bold;
+		padding: 16px;
+		font-size: 14px;
 		font-family: monospace;
+		flex-basis: 50%;
+		flex-direction: column;
+		box-sizing: border-box;
+		text-align: center;
+		
+		& strong {
+			font-size: 18px;
+			margin-bottom: 4px;
+		}
 	}
 }
 
