@@ -14,19 +14,19 @@ body {
 
 h1 {
 	font-family: 'Free Lunch';
-	font-weight: 700;
 	font-size: 56px;
-	text-align: center;
-	margin: 24px 0 4px;
+	font-weight: 700;
 	line-height: 1;
+	margin: 24px 0 4px;
+	text-align: center;
 }
 
 h2 {
 	font-family: 'Free Lunch';
-	font-weight: 700;
 	font-size: 18px;
-	text-align: center;
+	font-weight: 700;
 	margin: 0 0 24px 0;
+	text-align: center;
 }
 
 ul.bar-list {
@@ -38,19 +38,18 @@ ul.bar-list {
 	padding: 0;
 	
 	& li {
-		border: 1px dashed rgba(0,0,0,.25);
-		display: flex;
 		align-items: center;
-		justify-content: center;
-		height: 150px;
-		border-collapse: collapse;
-		position: relative;
-		padding: 16px;
-		font-size: 14px;
-		font-family: monospace;
+		border: 1px dashed rgba(0,0,0,.25);
+		box-sizing: border-box;
+		display: flex;
 		flex-basis: 50%;
 		flex-direction: column;
-		box-sizing: border-box;
+		font-family: monospace;
+		font-size: 14px;
+		height: 150px;
+		justify-content: center;
+		padding: 16px;
+		position: relative;
 		text-align: center;
 		
 		& strong {
@@ -62,27 +61,27 @@ ul.bar-list {
 
 /* Source: https://codepen.io/555/pen/pdwvBP */
 .visited::after {
-	content: 'Scum';
+	align-items: center;
+	border: 0.5rem double #D23;
+	border-radius: 50%;
 	color: #D23;
+	content: 'Scum';
+	display: flex;
+	font-family: 'Courier';
 	font-size: 36px;
 	font-weight: 700;
-	border: 0.5rem double #D23;
-	display: flex;
-	align-items: center;
+	height: 88px;
 	justify-content: center;
-	padding: 12px;
-	text-transform: uppercase;
-	border-radius: 50%;
-	font-family: 'Courier';
+	left: 50%;
 	-webkit-mask-image: url('../img/grunge.png');
 	-webkit-mask-size: 944px 604px;
 	mix-blend-mode: multiply;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate3d(-50%,-50%,0) rotate(-18deg);
-	height: 88px;
-	width: 88px;
 	opacity: .65;
+	padding: 12px;
+	position: absolute;
+	text-transform: uppercase;
+	transform: translate3d(-50%,-50%,0) rotate(-18deg);
+	top: 50%;
+	width: 88px;
 	z-index: 2;
 }
