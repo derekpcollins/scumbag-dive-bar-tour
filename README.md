@@ -10,10 +10,10 @@ Clone this repository to your local machine (it will install to whatever directo
 
 ```
 cd directory-to-install-to
-git clone git@github.com:derekpcollins/scumbag-drive-bar-tour.git
+git clone git@github.com/derekpcollins/scumbag-dive-bar-tour.git
 ```
 
-The above assumes SSH, but you may prefer to use HTTPS – [check the repo](https://github.com/derekpcollins/scumbag-drive-bar-tour) for alternative methods.
+The above assumes SSH, but you may prefer to use HTTPS – [check the repo](https://github.com/derekpcollins/scumbag-dive-bar-tour) for alternative methods.
 
 
 ### Run the site locally
