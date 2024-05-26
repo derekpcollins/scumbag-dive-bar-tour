@@ -1,6 +1,6 @@
 # Scumbag Dive Bar Tour
 
-Exploring the scummiest, divey-est bars in Lakewood, OH.
+Exploring the scummiest, divey-est bars in Lakewood, OH. View the live site at [https://derekpcollins.github.io/scumbag-dive-bar-tour/](https://derekpcollins.github.io/scumbag-dive-bar-tour/).
 
 
 ## 💻 Local Setup
